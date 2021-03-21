@@ -12,7 +12,7 @@ export default {
       console.log("got here", search);
 
       const searchT = await fetch(
-        `http://api1.tvmaze.com/search/shows?q=${search}`
+        `http://api.tvmaze.com/search/shows?q=${search}`
       ).catch((e) => {
         error.value = "error" + e;
         console.log("got error", error.value);
@@ -46,7 +46,6 @@ export default {
           namedSlot,
           slot,
           h("input", {
-            id: "input",
             onChange: (event) => {
               inputValue = event.target.value;
             }

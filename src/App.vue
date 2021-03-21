@@ -1,5 +1,5 @@
 <template>
-  <h3>TV Finder</h3>
+  <heading>TV Finder</heading>
   <render-me>
     <!-- <template #namedSlot>
           <h3>Hello From Named Slot</h3>
@@ -11,8 +11,6 @@
       </h3>
     </template>
   </render-me>
-
-  <heading>Hi From ThiS heading</heading>
 </template>
 
 <script setup>
